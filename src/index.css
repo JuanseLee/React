@@ -164,6 +164,14 @@ tr:nth-child(even) {
 
 }
 
+.dark  .favButton{
+  background-color: lightgray;
+}
+
+.dark .card .p{
+  color: white;
+}
+
 .fav {
   color: red;
 }
