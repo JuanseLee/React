@@ -1,0 +1,54 @@
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+  
+  .label {
+    width: 38px;
+    height: 14px;
+    background-color:#111;
+    display: flex;
+    border-radius:50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+  }
+  
+  .ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+  }
+  
+  /*  target the elemenent after the label*/
+  .checkbox:checked + .label .ball{
+    transform: translateX(24px);
+  }
+  
+  .moon {
+    color: pink;
+    height: 22px;
+    scale: 0.8;
+    position: relative;
+    left: -2px;
+  }
+  
+  .sun {
+    color: yellow;
+    height: 22px;
+  }
+
+  .toggleDark{
+    /* make the div fixed in the top right */
+    position: fixed;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+  }

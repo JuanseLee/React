@@ -1,0 +1,27 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0;
+  padding: 0;
+  
+} */
+
+.centered{
+  text-align: center;
+
+}
+.centered-questions{
+  text-align: center;
+  padding: 10px;
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imagen{
+  height: auto;
+  width: 95%;
+}
