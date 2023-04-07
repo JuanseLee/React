@@ -17,7 +17,6 @@ const Navbar = () => {
       <Link to={home.path}>{home.name}</Link>
       <Link to={contact.path}>{contact.name}</Link>
       <Link to={favs.path}>{favs.name}</Link>
-      {/* <Link to={dentista.path}>{dentista.name}</Link> */}
       {/* <button onClick={handleTheme}>Change theme</button> */}
       <DarkModeButton onClick={handleTheme} />
     </nav>
